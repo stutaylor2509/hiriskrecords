@@ -26,13 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
      
-      <div
-        style={{
-          margin: `0 auto`,
-          background:`#000`,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="main">
         <main>{children}</main>
        
       </div>

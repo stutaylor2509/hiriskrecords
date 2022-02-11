@@ -7,14 +7,13 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Hi-Risk Records | Hip Hop" />
-    <section class="hero">
+    <section className="hero">
     <StaticImage
       src="../images/hr.png"
-      width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Hi Risk Records"
-      style={{ marginBottom: `1.45rem` }}
+      className="logo"
     />
       </section>
 
